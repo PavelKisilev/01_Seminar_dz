@@ -1,4 +1,232 @@
-body,html{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+  color: #FFFFFF;
+}
+
+.link{
+  color: rgb(255, 236, 236);
+  font-size: 24px;
+  line-height: 30px;
+  
+}
+
+ul{padding-bottom: 50px;}
+
+body {
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	background: #020a18;
+}
+
+.img {
+	display: block;
+	max-width: 100px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+}
+
+.container{
+  width: 1146px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 160px;
+}
+
+.navigation{
+  padding: 39px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navigation a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+main {
+    margin-bottom: 197px;
+  }
+  
+.contant_wrapper{
+  display: flex;
+  gap: 128px;
+}
+
+
+.content h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #3A68B8;
+  }
+
+.content h1 {
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 130%;
+  margin-bottom: 40px;  
+}
+
+
+.content p {
+  font-size: 18px;
+  line-height: 160%;
+  opacity: 0.7;
+  width: 558px;
+  margin-bottom: 50px;
+}
+
+.btn{
+  padding: 15px 30px;
+  background: #3A68B8;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.btns-list{
+  display: flex;
+  gap: 20px;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 100px; */
+}
+
+article{
+  margin-bottom: 1000px;
+}
+
+.card_list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr ;
+  gap: 30px;
+
+}
+
+.card{
+  background: #132035;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.card_big{
+  grid-column: span 2;
+  grid-row: span 2;
+  gap: 60px;
+}
+
+.card p{
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 0.7;
+}
+
+.card h3{
+  font-size: 25px;
+  line-height: 125%;
+  opacity: 0.7;
+}
+
+/* второй урок */
+/* a {
+  text-decoration: none; 
+}
+
+.link{
+  color: red;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.title{
+  color: rgb(19, 78, 19);
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 900;
+}
+
+.text{
+  color: rgb(19, 78, 19);
+  font-style: italic;
+  font-size: 42px;
+  line-height: 30px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+
+.image{
+  border-radius: 10px;
+  width: 150px;
+}
+
+
+.link2{
+  width: 400px;
+	height: 130px;
+	outline: none;
+	border: 5px solid #e5f50b;
+	border-radius: 25px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.link3{
+  width: 400px;
+	height: 130px;
+	outline: none;
+	border: 5px solid #e5f50b;
+	border-radius: 25px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+body{
+  font-family: sans-serif;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body,html{
   width: auto;
   overflow-x: hidden;
   font-family: Verdana, sans-serif;
@@ -26,10 +254,7 @@ nav li{
   padding: 0 12px 0 25px;
 }
 
-h1{
-  font-size: 20px;
-  padding-top: 30px;
-}
+
 
 img{
   width: 150px;
@@ -100,4 +325,4 @@ a{
 .card-text {
   margin-top: 0;
   margin-bottom: 1rem;
-}
+} */
